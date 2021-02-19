@@ -14,5 +14,5 @@ EXPOSE 9876
 RUN apt-get install -y xz-utils
 
 COPY start.sh /start.sh
-COPY index.html /index.html
+
 CMD ["bash","/start.sh"]
